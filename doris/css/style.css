@@ -1,3 +1,7 @@
+:root{
+    --keyColor: #2c879c;
+}
+
 body{
     background-color: #1e1e1e;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,7 +21,7 @@ header h1{
 
 /*---Nav---*/
 .subNav{
-    margin-left: 20px;
+    margin: 20px;
 }
 
 .subNav a{
@@ -25,5 +29,47 @@ header h1{
 }
 
 .subNav a:hover{
-    color: #2c879c;
+    color: var(--keyColor);
+}
+
+/*---Content---*/
+:root{
+    --contentWidth: 300px;
+    --contentImgHeight: calc(3*((var(--contentWidth))/4))
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.content article{
+    margin: 10px;
+    width: var(--contentWidth);
+}
+
+.content img{
+    width: 100%;
+    height: var(--contentImgHeight);
+    object-fit: cover;
+}
+
+.content b{
+    color: var(--keyColor);
+    margin: 0;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.content b:hover{
+    color: white;
+}
+
+.content p{
+    padding: 0;
+    margin: 0;
+    color: #bbb;
 }
