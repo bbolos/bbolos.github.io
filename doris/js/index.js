@@ -1,5 +1,5 @@
 //alert("hoi")
-const categories = ["PORTFOLIO", "KUNST", "LESGEVEN"];
+const categories = ["ALLES", "KUNST", "LESGEVEN"];
 
 /*
 pageItems.forEach(element => {
@@ -22,7 +22,7 @@ categories.forEach(element => {
 
 function selectCatItems(catName){
     document.getElementsByClassName("content")[0].innerHTML = "";
-    if(catName == "PORTFOLIO"){
+    if(catName == "ALLES"){
         pageItems.forEach(element => {
             element.createPageItem();
         })
@@ -36,4 +36,4 @@ function selectCatItems(catName){
     }
 }
 
-selectCatItems("PORTFOLIO")
+selectCatItems("ALLES")

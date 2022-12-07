@@ -10,6 +10,7 @@ class pageItem {
     createPageItem(){
         var cont = document.getElementsByClassName("content")[0];
         var item = document.createElement("article");
+        item.setAttribute("onclick","sendPage("+this.id+")");
         var img = document.createElement("img");
         img.setAttribute("src",this.img);
         item.appendChild(img);
@@ -24,7 +25,12 @@ class pageItem {
 }
 
 const test1 = new pageItem(1, "KUNST", "Test1", "test ".repeat(50), "img/index.png")
-const test2 = new pageItem(1, "LESGEVEN", "Test2", "test ".repeat(50), "img/index.png")
-const test3 = new pageItem(1, "PORTFOLIO", "Test3", "test ".repeat(50), "img/index.png")
+const test2 = new pageItem(2, "LESGEVEN", "Test2", "test ".repeat(50), "img/index.png")
+const test3 = new pageItem(3, "ALLES", "Test3", "test ".repeat(50), "img/index.png")
 
 const pageItems = [test1, test2, test3, test1, test2, test3, test1];
+
+function sendPage(id){
+    document.cookie = "pageid=" + id;
+    location.replace("page.html")
+}

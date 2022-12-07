@@ -2,36 +2,71 @@
     --keyColor: #2c879c;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #1e1e1e;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    margin-left: 20px;
+}
+
+body h1{
+    font-size: 32px;
 }
 
 /*---header---*/
 
 header{
-    margin: 20px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 header h1{
-    font-size: 32px;
     margin: 0;
 }
 
-
 /*---Nav---*/
-.subNav{
-    margin: 20px;
+
+.headNav a{
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.headNav a:hover{
+    color: var(--keyColor);
+    text-decoration: none;
 }
 
 .subNav a{
     margin-right: 20px;
+    text-decoration: none;
+    color: white;
 }
 
 .subNav a:hover{
     color: var(--keyColor);
+    text-decoration: none;
 }
+
+/*---banner---*/
+.banner img{
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
 
 /*---Content---*/
 :root{
