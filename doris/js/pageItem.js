@@ -24,9 +24,9 @@ class pageItem {
     }
 }
 
-const test1 = new pageItem(1, "KUNST", "Test1", "test ".repeat(50), "img/index.png")
-const test2 = new pageItem(2, "LESGEVEN", "Test2", "test ".repeat(50), "img/index.png")
-const test3 = new pageItem(3, "ALLES", "Test3", "test ".repeat(50), "img/index.png")
+const test1 = new pageItem(1, "KUNST", "Test1", "test ".repeat(500), "img/index.png")
+const test2 = new pageItem(2, "LESGEVEN", "Test2", "test ".repeat(500), "img/index.png")
+const test3 = new pageItem(3, "ALLES", "Test3", "test ".repeat(500), "img/index.png")
 
 const pageItems = [test1, test2, test3, test1, test2, test3, test1];
 
