@@ -1,5 +1,5 @@
 //alert("hoi")
-const categories = ["ALLES", "KUNST", "LESGEVEN"];
+const categories = ["ALLES", "BOEKEN", "KUNST", "TEKENINGEN", "SCHILDERIJEN", "LESSEN"];
 
 /*
 pageItems.forEach(element => {
@@ -24,7 +24,9 @@ function selectCatItems(catName){
     document.getElementsByClassName("content")[0].innerHTML = "";
     if(catName == "ALLES"){
         pageItems.forEach(element => {
-            element.createPageItem();
+            if(element.cat != "LESSEN"){
+                element.createPageItem();
+            }
         })
     }
     else{
