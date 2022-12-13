@@ -39,3 +39,14 @@ function selectCatItems(catName){
 }
 
 selectCatItems("ALLES")
+
+function knopKlik(){
+    var sn = document.getElementsByClassName("subNav")[0];
+    var dp = document.querySelector(".subNav").style.display;
+    if(dp != "none"){
+        sn.style.display = "block";
+    }
+    else{
+        sn.style.display = "none";
+    }
+}

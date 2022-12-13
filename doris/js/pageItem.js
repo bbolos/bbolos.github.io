@@ -45,10 +45,10 @@ const hk2 = new pageItem(4, "TEKENINGEN", "Portret", "Houtskool op papier ", ["i
 const hk3 = new pageItem(5, "TEKENINGEN", "Portret", "Houtskool op papier ", ["img/hk3.jpg"]);
 const foto = new pageItem(6, "KUNST", "Zondagen in palermo", "In zondagen in Palermo ben ik geïnspireerd geraakt door het dagelijkse leven in Palermo. Hier was ik op vakantie en bewonderde ik de drukke winkelstraten vol met mensen die zich allemaal anders gedroegen. Al deze persoonlijkheden vormden de zondag die ik beleefd had in de stad. Deze heb ik vastgelegd en allemaal verwerkt in één beeld.", ["img/ft1.jpg","img/ft2.jpg"])
 const sch1 = new pageItem(7, "SCHILDERIJEN", nt, "Acryl op canvas", ["img/sch1.jpg"])
-const sch2 = new pageItem(8, "SCHILDERIJEN", nt, "", ["img/sch2.jpg"])
-const sch3 = new pageItem(9, "SCHILDERIJEN", nt, "", ["img/sch3.jpg"])
-const sch4 = new pageItem(10, "SCHILDERIJEN", nt, "", ["img/sch4.jpg"])
-const sch5 = new pageItem(11, "SCHILDERIJEN", nt, "", ["img/sch5.jpg"])
+const sch2 = new pageItem(8, "SCHILDERIJEN", "Zelfportret", "Olieverf op canvas", ["img/sch2.jpg"])
+const sch3 = new pageItem(9, "SCHILDERIJEN", nt, "Acryl op canvas", ["img/sch3.jpg"])
+const sch4 = new pageItem(10, "SCHILDERIJEN", "Biarritz", "Acryl op linnen", ["img/sch4.jpg"])
+const sch5 = new pageItem(11, "SCHILDERIJEN", "Digitale bubbel", "Op dit werk is te zien hoe men tegenwoordig geheel aan hun telefoon en digitale wereld vast zit. In het dagelijks leven kijken mensen niet meer op of om, maar iedereen zit vast in de straling tussen het oog en het apparaat.", ["img/sch5.jpg"])
 const sch6 = new pageItem(12, "SCHILDERIJEN", nt, "Acryl op canvas", ["img/sch6.jpg"])
 const les1 = new pageItem(13, "LESSEN", "Minimalistische kunst zwerfafval", "", ["pdf/op1.pdf#view=fit"]);
 const les2 = new pageItem(14, "LESSEN", "Paleiskamer Lodewijk XIV", "", ["pdf/op2.pdf#view=fit"]);
