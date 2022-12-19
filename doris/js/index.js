@@ -1,5 +1,5 @@
 //alert("hoi")
-const categories = ["ALLES", "BOEKEN", "KUNST", "TEKENINGEN", "SCHILDERIJEN", "LESSEN"];
+const categories = ["ALLES", "BOEKEN", "TEKENINGEN", "SCHILDERIJEN", "LESSEN", "OVERIG"];
 
 /*
 pageItems.forEach(element => {

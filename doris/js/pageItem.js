@@ -32,18 +32,18 @@ class pageItem {
 }
 
 /*
-const test1 = new pageItem(1, "KUNST", "Test1", "test ".repeat(500), ["img/index.png", "img/index.png"])
+const test1 = new pageItem(1, "OVERIG", "Test1", "test ".repeat(500), ["img/index.png", "img/index.png"])
 const test2 = new pageItem(2, "LESGEVEN", "Test2", "test ".repeat(500), ["img/index.png", "img/index.png"])
 const test3 = new pageItem(3, "ALLES", "Test3", "test ".repeat(500), ["img/index.png", "img/index.png"])
 */
 const nt = "untitled"
 
 const boek = new pageItem(1, "BOEKEN", "Kon ik maar…", "Een boek met teksten vanuit mijn jeugd waarin ik schreef over alles wat mij bezighield. Alles waar ik toen der tijd over schreef ging over mijn toekomst en alle beelden in mijn hoofd die als onmogelijk leken. In mijn boek blik ik hierop terug en citeer ik zinnen uit mijn dagboeken en schriftjes.", ["img/boek.jpg"]);
-const hout = new pageItem(2, "KUNST", nt, "Beweging in cirkelvormen die uitlopen tot spiraal, gemaakt uit resthout.", ["img/hout.PNG"]);
+const hout = new pageItem(2, "OVERIG", nt, "Beweging in cirkelvormen die uitlopen tot spiraal, gemaakt uit resthout.", ["img/hout.PNG"]);
 const hk1 = new pageItem(3, "TEKENINGEN", "Portret", "Houtskool op papier ", ["img/hk1.jpg"]);
 const hk2 = new pageItem(4, "TEKENINGEN", "Portret", "Houtskool op papier ", ["img/hk2.jpg"]);
 const hk3 = new pageItem(5, "TEKENINGEN", "Portret", "Houtskool op papier ", ["img/hk3.jpg"]);
-const foto = new pageItem(6, "KUNST", "Zondagen in palermo", "In zondagen in Palermo ben ik geïnspireerd geraakt door het dagelijkse leven in Palermo. Hier was ik op vakantie en bewonderde ik de drukke winkelstraten vol met mensen die zich allemaal anders gedroegen. Al deze persoonlijkheden vormden de zondag die ik beleefd had in de stad. Deze heb ik vastgelegd en allemaal verwerkt in één beeld.", ["img/ft1.jpg","img/ft2.jpg"])
+const foto = new pageItem(6, "OVERIG", "Zondagen in palermo", "In zondagen in Palermo ben ik geïnspireerd geraakt door het dagelijkse leven in Palermo. Hier was ik op vakantie en bewonderde ik de drukke winkelstraten vol met mensen die zich allemaal anders gedroegen. Al deze persoonlijkheden vormden de zondag die ik beleefd had in de stad. Deze heb ik vastgelegd en allemaal verwerkt in één beeld.", ["img/ft1.jpg","img/ft2.jpg"])
 const sch1 = new pageItem(7, "SCHILDERIJEN", nt, "Acryl op canvas", ["img/sch1.jpg"])
 const sch2 = new pageItem(8, "SCHILDERIJEN", "Zelfportret", "Olieverf op canvas", ["img/sch2.jpg"])
 const sch3 = new pageItem(9, "SCHILDERIJEN", nt, "Acryl op canvas", ["img/sch3.jpg"])
