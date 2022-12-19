@@ -152,6 +152,10 @@ header h1{
     width: 100%;
 }
 
+.art p{
+    max-width: 600px;
+}
+
 /*---contact---*/
 .contact{
     margin-left: 20px;
